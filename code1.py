@@ -16,6 +16,7 @@ weight=Entry().grid(row=1,column=1)
 Calories=Entry().grid(row=2,column=1)
 root.mainloop()
 
+print(age.get())
 
 
 
