@@ -18,20 +18,20 @@ def calculate_bmi():
 def bmi_index(bmi):
     
     if bmi < 18.5:
-        messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Underweight')
+        messagebox.showinfo('BMI-Tracker', f'BMI = {bmi} is Underweight')
     elif (bmi > 18.5) and (bmi < 24.9):
-        messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Normal')
+        messagebox.showinfo('BMI-Tracker', f'BMI = {bmi} is Normal')
     elif (bmi > 24.9) and (bmi < 29.9):
-        messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Overweight')
+        messagebox.showinfo('BMI-Tracker', f'BMI = {bmi} is Overweight')
     elif (bmi > 29.9):
-        messagebox.showinfo('bmi-pythonguides', f'BMI = {bmi} is Obesity') 
+        messagebox.showinfo('BMI-Tracker', f'BMI = {bmi} is Obesity') 
     else:
-        messagebox.showerror('bmi-pythonguides', 'something went wrong!')   
+        messagebox.showerror('BMI-Tracker', 'something went wrong!')   
 
 ws = Tk()
-ws.title('PythonGuides')
+ws.title('BMI Calculator')
 ws.geometry('400x300')
-ws.config(bg='#686e70')
+ws.config(bg='light blue')
 
 var = IntVar()
 
